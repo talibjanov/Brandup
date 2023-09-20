@@ -1,0 +1,228 @@
+@media (max-width: 1200px){
+
+    .header__home{
+        padding-top: 100px;
+    }
+
+    .header__bottom-content{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-item2{
+        border-top: 2px solid #AFAFAF;
+        border-bottom: 2px solid #AFAFAF;
+    }
+
+    .header__content-item:before{
+        content: none;
+    }
+
+    .header__item-number{
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .header__item-name{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 1100px){
+   .main__about{
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+@media (max-width: 992px){
+   .header__burger-btn{
+    display: block;
+   }
+
+   .header__navbar-social{
+    display: none;
+   }
+
+   .header__menu{
+    position: absolute;
+    right: -350px;
+    top: 0;
+    width: 350px;
+    background-color: blueviolet;
+    background: rgba(0, 0, 0, 0.355);
+    transition: .5s ease-in-out;
+    backdrop-filter: blur(4px);
+    padding: 150px 20px 100px 20px;
+    visibility: hidden;
+    transition: transform .5s, visibility .5s;
+    will-change: transform;
+   }
+
+   .header__navbar-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .header__navbar-link{
+    padding: 10px 0;
+   }
+
+   .header__navbar.open .header__menu{
+    transform: translateX(-100%);
+    visibility: visible;
+   }
+}
+
+@media (max-width: 870px){
+    .header__home-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__center-name{
+        width: 150px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .header__center-title{
+        text-align: center;
+        width: 450px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .header__center-text{
+        text-align: center;
+        width: 250px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 550px){
+    .main__item-title{
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .main__item-text{
+       width: 445px;
+    }
+}
+
+@media (max-width: 520px){
+    .footer__contact{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px){
+   .main__about-content{
+       width: 380px;
+       height: 435px;
+   }
+
+   .main__galery-item{
+    width: 360px;
+    height: 320px;
+   }
+
+   .main__galery-img{
+    width: 335px;
+    height: 250px;
+   }
+
+   .partners__img{
+    width: 285px;
+   }
+}
+
+@media (max-width: 460px){
+    .main__item-text{
+       width: 305px;
+    }
+}
+
+@media (max-width: 435px){
+    .header__center-title{
+        font-size: 22px;
+    }
+
+    .header__item-number{
+        font-size: 35px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 400px){
+    .main__about-content{
+        width: 320px;
+        height: 400px;
+    }
+
+    .main__services-item{
+        width: 305px;
+    }
+}
+
+@media (max-width: 350px){
+    .main__about-content{
+        width: 280px;
+        height: 310px;
+    }
+
+    .main__employees-content{
+        width: 350px;
+        height: 400px;
+    }
+
+    .main__employees-manager{
+        left: 50px;
+    }
+
+    .main__employees-name{
+        left: 50px;
+    }
+
+    .main__galery-item{
+        width: 343px;
+        height: 285px;
+    }
+
+    .main__galery-img{
+        width: 279px;
+        height: 185px;
+        bottom: 23px;
+    }
+
+    .main__galery-name{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 350px){
+   .header__center-title{
+    font-size: 20px;
+   }
+}
